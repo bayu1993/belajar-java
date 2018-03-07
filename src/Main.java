@@ -23,18 +23,17 @@ public class Main {
         int number2 = 70;
         int result;
 
-        //create object
+        //create new object
         Calculator objCalc = new Calculator();
+
         //calling method addition with object
         result = objCalc.addition(number1,number2);
         System.out.println("====== Penjumlahan ======");
         System.out.println(number1 +" + "+number2+ " = "+result);
-        System.out.println("==========================");
 
-        //calling method substraction with object
+        //calling method subtraction with object
         result = objCalc.subtraction(number1,number2);
         System.out.println("====== Pengurangan ======");
         System.out.println(number1 +" - "+number2+ " = "+result);
-        System.out.println("==========================");
     }
 }
