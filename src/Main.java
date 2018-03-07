@@ -35,5 +35,10 @@ public class Main {
         result = objCalc.subtraction(number1,number2);
         System.out.println("====== Pengurangan ======");
         System.out.println(number1 +" - "+number2+ " = "+result);
+
+        //calling method multiplication with object
+        result = objCalc.multiplication(number1,number2);
+        System.out.println("======= Perkalian =======");
+        System.out.println(number1 +" * "+number2+ " = "+result);
     }
 }
