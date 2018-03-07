@@ -25,7 +25,7 @@ public class Mobil {
     int jumlahRoda = 4;
     boolean mesinDepan = true;
     String warna = "merah";
-    String setir = "Bulat";
+    boolean setirBulat = true;
     boolean pintuBukaAtas = true;
     int jmlPintu = 4;
     int jmlKnalpot = 2;
