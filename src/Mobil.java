@@ -31,5 +31,32 @@ public class Mobil {
     int jmlKnalpot = 2;
     int jmlTempatDuduk = 4;
 
+    /*Method
+    * modifier : syntax (orange color)
+    * access modifier : memberikan access pada object
+    * public    : bisa diakses oleh semua class
+    * private   : cuman bisa dipanggil pada kelas itu sendiri
+    * protected :
+    * default
+    * kpn kita gunakan?
+    * private : memang digunakan kelas itu sendiri, jika di butuhkan oleh class lain
+    * penamaan method == penamaan variable
+    * pemanggilan
+    *
+    * return value : mengembalikan nilai
+    * void : tidak mengembalikan nilai
+    *
+    * tahapan development
+    *
+    * maintain memory
+    * codingan brantakan
+    *
+    * psvm > sortcut method main*/
+    public static void main(String[] args){
+        System.out.println("Mobil saya");
+        int jumlahTempatDuduk = 8;
+        System.out.println("Jumlah tempat duduk "+jumlahTempatDuduk);
+
+    }
 
 }
