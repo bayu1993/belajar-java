@@ -19,9 +19,10 @@ public class Main {
 
         //# create object from class Calculator and calling method addition
         //declare and inisialize new variable
-        int number1 = 600;
-        int number2 = 70;
+        int number1 = 5;
+        int number2 = 2;
         int result;
+        double resultDivision;
 
         //create new object
         Calculator objCalc = new Calculator();
@@ -39,6 +40,11 @@ public class Main {
         //calling method multiplication with object
         result = objCalc.multiplication(number1,number2);
         System.out.println("======= Perkalian =======");
-        System.out.println(number1 +" * "+number2+ " = "+result);
+        System.out.println(number1 +" x "+number2+ " = "+result);
+
+        //calling method division with object
+        resultDivision = objCalc.division(number1,number2);
+        System.out.println("======= Pembagian =======");
+        System.out.println(number1 +" / "+number2+ " = "+resultDivision);
     }
 }
