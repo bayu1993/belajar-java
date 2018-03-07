@@ -14,7 +14,17 @@ public class Main {
         * kapan kita inisialisasi variable di Constructor?
         * sering dipake dan dinamis
         * not static*/
-        Mobil avanza = new Mobil(); //membuat object avanza dengan nilai == Class Mobil
-        avanza.print();
+       /* Mobil avanza = new Mobil(); //membuat object avanza dengan nilai == Class Mobil
+        avanza.print();*/
+
+        //# create object from class Calculator and calling method addition
+        //declare and inisialize new variable
+        int number1 = 600;
+        int number2 = 70;
+
+        //create object
+        Calculator objCalc = new Calculator();
+        //calling method with object
+        objCalc.addition(number1,number2);
     }
 }
