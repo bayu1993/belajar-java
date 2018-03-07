@@ -21,14 +21,20 @@ public class Main {
         //declare and inisialize new variable
         int number1 = 600;
         int number2 = 70;
-        int resultAdd;
+        int result;
 
         //create object
         Calculator objCalc = new Calculator();
-        //calling method with object
-        resultAdd = objCalc.addition(number1,number2);
+        //calling method addition with object
+        result = objCalc.addition(number1,number2);
         System.out.println("====== Penjumlahan ======");
-        System.out.println(number1 +" + "+number2+ " = "+resultAdd);
+        System.out.println(number1 +" + "+number2+ " = "+result);
+        System.out.println("==========================");
+
+        //calling method substraction with object
+        result = objCalc.subtraction(number1,number2);
+        System.out.println("====== Pengurangan ======");
+        System.out.println(number1 +" - "+number2+ " = "+result);
         System.out.println("==========================");
     }
 }
