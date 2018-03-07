@@ -37,7 +37,7 @@ public class Mobil {
     * public    : bisa diakses oleh semua class
     * private   : cuman bisa dipanggil pada kelas itu sendiri
     * protected :
-    * default
+    * default   : hanya dapat di access 1 package
     * kpn kita gunakan?
     * private : memang digunakan kelas itu sendiri, jika di butuhkan oleh class lain
     * penamaan method == penamaan variable
