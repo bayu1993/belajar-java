@@ -17,6 +17,12 @@ class Calculator {
     int multiplication(int number1, int number2){
         return number1 * number2;
     }
+    /* create new method division : for division operation
+    * @return double data type
+    * @param int number1 and int number 2*/
+    double division(int number1, int number2){
+        return (double) number1 / number2;
+    }
 
 
 }
