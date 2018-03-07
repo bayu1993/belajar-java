@@ -21,10 +21,14 @@ public class Main {
         //declare and inisialize new variable
         int number1 = 600;
         int number2 = 70;
+        int resultAdd;
 
         //create object
         Calculator objCalc = new Calculator();
         //calling method with object
-        objCalc.addition(number1,number2);
+        resultAdd = objCalc.addition(number1,number2);
+        System.out.println("====== Penjumlahan ======");
+        System.out.println(number1 +" + "+number2+ " = "+resultAdd);
+        System.out.println("==========================");
     }
 }
