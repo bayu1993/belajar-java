@@ -11,6 +11,12 @@ class Calculator {
     int subtraction(int number1, int number2){
         return number1 - number2;
     }
+    /* create new method multiplication : for multiplication operation
+    * @return int data type
+    * @param int number1 and int number 2*/
+    int multiplication(int number1, int number2){
+        return number1 * number2;
+    }
 
 
 }
