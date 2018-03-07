@@ -51,12 +51,20 @@ public class Mobil {
     * maintain memory
     * codingan brantakan
     *
-    * psvm > sortcut method main*/
-    public static void main(String[] args){
+    * psvm > sortcut method main
+    *
+    * static itu nempel ke memory
+    * jadi walaupun itu tentang tidak dipakai tetap dialokasikan memory
+    * hanya bisa menjalankan method2 atau variable static*/
+    /*public static void main(String[] args){
         System.out.println("Mobil saya");
         int jumlahTempatDuduk = 8;
         System.out.println("Jumlah tempat duduk "+jumlahTempatDuduk);
 
+    }*/
+    public void print(){
+        System.out.println("jumlah roda: "+jumlahRoda);
+        System.out.println("Warna mobil :"+warna);
     }
 
 }
