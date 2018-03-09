@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // Mobil : nama Class
@@ -19,8 +21,11 @@ public class Main {
 
         //# create object from class Calculator and calling method addition
         //declare and inisialize new variable
-        int number1 = 5;
-        int number2 = 2;
+        Scanner inputUser = new Scanner(System.in);
+        System.out.println("Masukkan bilangan pertama : ");
+        int number1 = inputUser.nextInt();
+        System.out.println("Masukkan bilangan kedua : ");
+        int number2 = inputUser.nextInt();
         int result;
         double resultDivision;
 
