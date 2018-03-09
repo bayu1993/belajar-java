@@ -51,5 +51,10 @@ public class Main {
         resultDivision = objCalc.division(number1,number2);
         System.out.println("======= Pembagian =======");
         System.out.println(number1 +" / "+number2+ " = "+resultDivision);
+
+        Parkir newParkir = new Parkir();
+        System.out.println("Jml Roda :");
+        int jmlRoda = inputUser.nextInt();
+        newParkir.parkirSystem(jmlRoda);
     }
 }

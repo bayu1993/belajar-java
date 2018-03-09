@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class Loop {
     public static void main(String[] args) {
-        int [] numbers ={12,23,4323,123,1,1543};
-        String [] names = {"alex","nero","beri","agung","chris","Elon","Steve"};
-        for (int a : numbers){
-            System.out.print(a + " ");
-        }
-        System.out.println();
-        for (String newName :names){
-            System.out.print(newName + " ");
-
+        int [] lantai ={0,3,2,3,4,5};
+       // Scanner input = new Scanner(System.in);
+       // System.out.println("dari lantai :");
+        int posisi = 1;
+      //  System.out.println("ke lantai : ");
+        int tujuan = ;
+        for (int a=posisi;a <= tujuan; a++){
+            int indexLantai = lantai[a];
+            System.out.println("kamu berada di lantai "+indexLantai);
         }
     }
 
@@ -62,10 +62,7 @@ class Condition{
 
 }
 class Parkir{
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Jumlah Roda : " );
-        int jumlahRoda = input.nextInt();
+    void parkirSystem(int jumlahRoda){
         if (jumlahRoda <= 2){
             System.out.println("Lahan sebelah kiri");
         }else if (jumlahRoda <= 4){
@@ -73,17 +70,5 @@ class Parkir{
         }else{
             System.out.println("Basement");
         }
-
-        /*switch (jumlahRoda){
-            case 2 :
-                System.out.println("kanan");
-                break;
-            case 4 :
-                System.out.println("kiri");
-                break;
-            default:
-                System.out.println("basement");
-
-        }*/
     }
 }
