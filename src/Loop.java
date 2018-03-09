@@ -61,3 +61,29 @@ class Condition{
     }
 
 }
+class Parkir{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Jumlah Roda : " );
+        int jumlahRoda = input.nextInt();
+        if (jumlahRoda <= 2){
+            System.out.println("Lahan sebelah kiri");
+        }else if (jumlahRoda <= 4){
+            System.out.println("Lahan sebelah kanan");
+        }else{
+            System.out.println("Basement");
+        }
+
+        /*switch (jumlahRoda){
+            case 2 :
+                System.out.println("kanan");
+                break;
+            case 4 :
+                System.out.println("kiri");
+                break;
+            default:
+                System.out.println("basement");
+
+        }*/
+    }
+}
