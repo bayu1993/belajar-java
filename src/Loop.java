@@ -45,7 +45,6 @@ public class Loop {
             }
         }
         userKonfirmasi();
-
     }
     private void userKonfirmasi(){
         System.out.println("Apakah anda ingin naik lagi?(Y/N)");
@@ -62,8 +61,6 @@ public class Loop {
                 userKonfirmasi();
         }
     }
-
-
 }
 
 class Parkir{
