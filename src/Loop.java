@@ -20,9 +20,9 @@ public class Loop {
         }
     }
     void userInput(){
-        System.out.println("Dari lantai :");
+        System.out.println("Kamu dari lantai berapa?");
         int posisi = inputData.nextInt();
-        System.out.println("Ke lantai :");
+        System.out.println("Kamu ingin Ke lantai berapa?");
         int tujuan = inputData.nextInt();
         errorHandling(posisi,tujuan);
     }
@@ -30,6 +30,9 @@ public class Loop {
         for (int newPosisi=posisi; newPosisi<= tujuan; newPosisi++){
             int indexLantai = jmlLantai[newPosisi];
             System.out.println("Kamu berada di lantai "+indexLantai);
+            if (indexLantai == tujuan){
+                System.out.println("Sekarang kamu sudah berada di lantai "+indexLantai);
+            }
         }
         userKonfirmasi();
     }
@@ -37,6 +40,9 @@ public class Loop {
         for (int newPosisi=posisi; newPosisi>= tujuan; newPosisi--){
             int indexLantai = jmlLantai[newPosisi];
             System.out.println("Kamu berada di lantai "+indexLantai);
+            if (indexLantai == tujuan){
+                System.out.println("Sekarang kamu sudah berada di lantai "+indexLantai);
+            }
         }
         userKonfirmasi();
 
