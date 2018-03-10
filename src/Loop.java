@@ -20,7 +20,7 @@ public class Loop {
         }
     }
     void userInput(){
-        System.out.println("Kamu dari lantai berapa?");
+        System.out.println("Kamu sekarang di lantai berapa?");
         int posisi = inputData.nextInt();
         System.out.println("Kamu ingin Ke lantai berapa?");
         int tujuan = inputData.nextInt();
