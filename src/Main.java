@@ -21,7 +21,7 @@ public class Main {
 
         //# create object from class Calculator and calling method addition
         //declare and inisialize new variable
-        Scanner inputUser = new Scanner(System.in);
+       /* Scanner inputUser = new Scanner(System.in);
         System.out.println("Masukkan bilangan pertama : ");
         int number1 = inputUser.nextInt();
         System.out.println("Masukkan bilangan kedua : ");
@@ -55,6 +55,9 @@ public class Main {
         Parkir newParkir = new Parkir();
         System.out.println("Jml Roda :");
         int jmlRoda = inputUser.nextInt();
-        newParkir.parkirSystem(jmlRoda);
+        newParkir.parkirSystem(jmlRoda);*/
+
+        Loop newObj = new Loop();
+        newObj.userInput();
     }
 }
